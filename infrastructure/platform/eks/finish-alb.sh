@@ -1,4 +1,4 @@
-CLUSTER_NAME=continuous-testing
+CLUSTER_NAME=jupegarnica
 AWS_ACCOUNT_ID=$(aws sts --output json  get-caller-identity | jq -r ".Account")
 
 eksctl create cluster -n $CLUSTER_NAME -f cluster.yaml

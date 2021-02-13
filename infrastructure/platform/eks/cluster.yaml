@@ -3,7 +3,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: continuous-testing
+  name: jupegarnica
   region: eu-west-1
 
 iam:
